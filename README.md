@@ -6,10 +6,13 @@ Hello, fellow developers! I'm Krishanu Dev Sarma, and this repository houses my 
 
 ## Project Structure
 
-1. **Data:** The `data` folder contains sample ECG signals for testing.
+1. **Data:** The `database` folder contains sample ECG signals for testing.
 2. **Code:** MATLAB scripts for signal processing and R-peak detection.
-    - `preprocess_ecg.m`: Implements noise removal through low-pass and high-pass filters.
-    - `detect_r_peaks.m`: Utilizes MATLAB for R-peak detection.
+    - `data_plot.m`: Loads the data and plots it in Matlab.
+    - `Low_pass_filter.m`: Implements noise removal through low-pass filter.
+    - `High_pass_filter.m`: Implements noise removal through high-pass filter.
+    - `R_peaks.m`: Utilizes MATLAB for R-peak detection.
+    - `Calculation_of_heart_rate.m`: Calculates the heart rates from the R-peaks.
 
 ## Technical Details
 
